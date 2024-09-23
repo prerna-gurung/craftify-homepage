@@ -1,0 +1,25 @@
+nav {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.105);
+}
+.logo {
+    color: rgb(80, 180, 152);
+    font-weight:900;
+}
+
+.logo:hover {
+    color: rgb(80, 180, 152);
+}
+.button {
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+.nav-link:hover {
+    color: rgb(80, 180, 152);
+
+}
+
+.nav-link {
+    margin-right: 1rem;
+   
+}

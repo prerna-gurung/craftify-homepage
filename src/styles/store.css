@@ -1,0 +1,131 @@
+.store-section {
+    text-align: center;
+    padding: 50px;
+    position: relative;
+}
+
+.store-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.store-section p {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.store-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
+
+.store-item {
+    position: absolute;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.store-item:hover {
+    transform: scale(1.1);
+}
+
+.craftify {
+    top:35%;
+    left: 43%;
+    width: 150px;
+}
+
+.shopify {
+    bottom: 0;
+    left: 40%;
+    width: 80px;
+}
+
+.wix {
+    top: 10%;
+    right: 10%;
+}
+
+.etsy {
+    top: 50%;
+    right: 15%;
+}
+
+.squarespace {
+    top: 30%;
+    right: 30%;
+    width: 70px;
+}
+
+.woo {
+    top: 15%;
+    left: 20%;
+    width: 80px;
+}
+
+.api {
+    bottom: 15%;
+    left: 5%;
+    width: 150px;
+}
+
+.ebay {
+    top: 0;
+    left: 50%;
+}
+
+.prestashop {
+    bottom: 30%;
+    left: 25%;
+}
+
+.more {
+    bottom: 0;
+    right: 30%;
+    width: 70px;
+}
+
+@media (max-width: 1000px) {
+    .store-item {
+            width: 70px;
+            padding: 5px;
+        }
+    .craftify {
+        width: 100px;
+    }
+
+}
+
+@media (max-width: 700px){
+    .store-container {
+        height: 250px;
+    }
+    .store-item {
+        width: 55px;
+           
+        }
+        .wix {
+            top: 0%;
+            right: 6%;
+        }
+    .etsy {
+        right: 5%;
+    }
+    .squarespace {
+        top: 30%;
+        right: 20%;
+        width: 50px;
+    }
+    .more {
+        right: 10%;
+        width: 50px;
+
+    }
+}

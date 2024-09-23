@@ -1,0 +1,29 @@
+.feature-container {
+    width: 100%;
+    background-color: #F7F7F7;
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap:3rem;
+    row-gap: 0rem;
+    justify-content: center;
+    align-items: center;
+}
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 20rem;
+   
+}
+
+.icons {
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    margin: 1rem 0;
+}

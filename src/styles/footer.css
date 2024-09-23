@@ -1,0 +1,45 @@
+#footer {
+    padding: 20px;
+    background-color: #F7F7F7;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer h5 {
+    font-size: 1rem;
+    
+}
+
+footer p,
+footer a {
+    font-size: 0.9rem !important;
+    text-decoration: none;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.social {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#my_logo {
+    width: 120px;
+    height: auto;
+    display: block;
+}
+
+.follow {
+    margin: 10px 0;
+}
+
+#footer a:hover {
+    color: rgb(80, 180, 152) !important;
+}
