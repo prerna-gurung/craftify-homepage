@@ -127,6 +127,11 @@
 
 @media (max-width: 600px) {
 
+    .products-section {
+        
+        padding: 3rem 4rem;
+    }
+
     .products-image {
         width: 100%;
     }
